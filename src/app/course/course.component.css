@@ -8,6 +8,15 @@ div{
 h1{
     font-size: 50px;
     background: -webkit-linear-gradient(#69fe1e, #000000);
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+td{
+    margin: 5px;
+    font-size: x-large;
+}
+
+th{
+    margin-right: 2px;
+
 }
