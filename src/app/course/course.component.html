@@ -2,7 +2,7 @@
     <h1 >Course Details</h1>
 
     <div class="table">
-        <table class="table table-striped">
+        <table class="table ">
             <thead>
               <tr>
                 <th scope="col">Id</th>
@@ -11,10 +11,11 @@
               </tr>
             </thead>
             <tbody>
-              <tr *ngFor="let courses of ">
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
+              <tr *ngFor="let courses of course.data ">
+                <th scope="row">{{courses.id}}</th>
+                <td>{{courses.attributes.EngineeringType}}</td>
+                <td>{{courses.attributes.discription}}</td>
+                
               </tr>
             </tbody>
           </table>
